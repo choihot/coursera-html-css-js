@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+
+}
+.all_section{
+    float:left;
+    border: 1px solid black;
+    position: relative;
+    background-color: gray;
+    padding: 10px;
+    
+}
+.container{
+    padding: 10px;
+    width: 100%;
+}
+.section_title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    font-size: 20px;
+    height: auto;
+    width: 100px;
+    text-align: center;
+    color:aliceblue;
+}
+.section_title_1{
+    background-color: rgb(58, 58, 214);
+    
+}
+.section_title_2{
+    background-color: green;
+}
+.section_title_3{
+    background-color: rgb(138, 15, 15);
+}
+
+.all_section>p{
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media (min-width:992px) {
+    .all_section{
+        width: 32%;
+    }
+    .all_section.section1{
+        margin-right: 2%;
+    }
+    .all_section.section2{
+        margin-right: 2%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .all_section{
+        width: 49%;
+        margin-bottom: 2%;
+    }
+    .all_section.section3{
+        width: auto;
+    }
+    .all_section.section1{
+        margin-right: 2%;
+    }
+}
+
+@media (max-width:767px) {
+    .all_section{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+}
