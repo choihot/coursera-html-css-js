@@ -29,8 +29,8 @@
 .text-content h3{
     padding-top: 20px;
 }
-.container h2{
-    margin: 15px;
+#menu-title{
+    margin: 20px;
 }
 .navbar-toggler{
     background-color: aliceblue;
