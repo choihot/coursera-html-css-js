@@ -278,15 +278,43 @@
 //     console.log("Hello "+ name +"!");
 // })("Coursera");
 
-(function (window){
-    var cykGreeter = {};
-    cykGreeter.name = "cyk";
-    var greeting = "Hi ";
-    cykGreeter.sayHi = function () {
-        console.log(greeting + cykGreeter.name);
-    }
-    window.cykGreeter = cykGreeter;
+// (function (window){
+//     var cykGreeter = {};
+//     cykGreeter.name = "cyk";
+//     var greeting = "Hi ";
+//     cykGreeter.sayHi = function () {
+//         console.log(greeting + cykGreeter.name);
+//     }
+//     window.cykGreeter = cykGreeter;
 
-})(window);
+// })(window);
 
-cykGreeter.sayHi();
+// cykGreeter.sayHi();
+
+//二分法
+// /**
+//  * @param {number[]} nums
+//  * @param {number} target
+//  * @return {number}
+//  */
+// var search = function(nums, target) {
+//     let left = 0;
+//     let right = nums.length-1;
+//     console.log(right);
+//     while(left<=right){
+//         let pivot = Math.floor((left+right)/2);
+//         console.log(pivot);
+//         if(nums[pivot]==target){
+//             return pivot;
+//         }
+//         if(nums[pivot]<target){
+//             left = pivot + 1;
+//         }
+//         if(nums[pivot]>target){
+//             right = pivot - 1;
+//         }
+//     }
+//         return -1;
+// };
+
+// search([-1,0,3,5,9,12],9);
